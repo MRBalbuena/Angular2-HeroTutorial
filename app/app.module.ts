@@ -13,6 +13,9 @@ import { HeroesComponent } from './heroes.component';
 import { HeroService } from './hero.service';
 import { routing } from './app.routing';
 import { DashboardComponent } from './dashboard.component';
+import { HeroSearchComponent } from './hero-search.component';
+
+import './rxjs-extensions';
 
 @NgModule({
   imports: [ 
@@ -26,7 +29,8 @@ import { DashboardComponent } from './dashboard.component';
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroSearchComponent
     ],
   providers:[
     HeroService
